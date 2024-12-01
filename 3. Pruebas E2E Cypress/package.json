@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --headless",
+    "comparar": "node reporte.js",
+    "test:comparar": "npm run test && npm run comparar"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "cypress": "^13.15.2",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^6.0.0"
+  }
+}

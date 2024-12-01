@@ -1,0 +1,328 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-page-in-ghost;con-mi-usuario-y-contraseña-de-ghost-quiero-crear-un-sitio-con-un-titulo-muy-largo",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Con mi usuario y contraseña de ghost quiero crear un sitio con un titulo muy largo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1775000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to page \"<URL>\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I enter login email \"<USERNAME1>\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:418"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I enter login password \"<PASSWORD1>\"",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:431"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I submit login",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:441"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click on the page option",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:450"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click on the new page button",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:558"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I enter title page with random info over_max_title",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I enter detail page with random info",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:2382"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I click publish on version 5.96",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:662"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I wait for 1 seconds",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I should not see the publish button",
+            "match": {
+              "location": "features\\web\\step_definitions\\step.js:706"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2319000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 56
+          },
+          {
+            "name": "@web",
+            "line": 56
+          },
+          {
+            "name": "@dynamic-data",
+            "line": 56
+          },
+          {
+            "name": "@faker",
+            "line": 56
+          },
+          {
+            "name": "@boundary",
+            "line": 56
+          },
+          {
+            "name": "@over_max_title",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-page-in-ghost",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create Page in Ghost",
+    "tags": [],
+    "uri": "features\\prueba1.feature"
+  }
+]

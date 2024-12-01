@@ -1,0 +1,8 @@
+{
+  "loginPage": "http://localhost:2368/ghost/#/signin",
+  "loginPageOld": "http://localhost:3001/ghost/#/signin",
+  "email": "jd.garciaa1@uniandes.edu.co",
+  "password": "Pruebas123*",
+  "userLoginName": "Jose Daniel Garcia Arias",
+  "testUserLoginName": "Jose Daniel Garcia Arias Test"
+}
