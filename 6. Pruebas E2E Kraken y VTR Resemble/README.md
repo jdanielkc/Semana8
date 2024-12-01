@@ -13,10 +13,9 @@ Pruebas realizadas sobre ghost con kraken-
 # Pasos para correr los escenarios de pruebas:
 
 - Debe tener las dos versiones de ghost que se van a utilizar ya instaladas y de ser posible dockerizadas.
-- Clonar el repositorio en su equipo local, git clone https://github.com/asr88/KrakenGhost.git
+- Clonar el repositorio en su equipo local.
 - Ejecutar **npm install kraken-node -g**, esto instalara dos librerias necesarias para correr los escenarios con kraken.
 - Ejecutar **npm install kraken-node**
-- Ejecutar **npm install -g appium**
 - Revisar la version de cucumber que utiliza kraken
   y ejecutar **npm install -g @cucumber/cucumber@7.2.1** y **npm install @cucumber/cucumber@7.2.1**
 - Moficar las variables del archivo **properties.json** de acuerdo a su entorno y preferencia, pero como requitos: **USERNAME1**, **PASSWORD1**.
@@ -33,28 +32,3 @@ Pruebas realizadas sobre ghost con kraken-
 - Es importante definir bien las rutas de las imagenes según se va a comparar.
 - En nuestro caso fue necesario usar la dependencia sharp para poder comparar las imagenes, por lo que se debe instalarla con el comando **npm install sharp**
 - Por último se debe ejecutar el comando **npm test**
-
-# Las 10 funcionalidades de GHOST que se trabajan en esta semana 5 son:
-
-- prueba1 (Crear page)
-- prueba2 (Crear page sin datos)
-- prueba3 (Crear post)
-- prueba4 (Crear post sin datos)
-- prueba5 (Crear miembro)
-- prueba6 (Crear miembro sin datos)
-- prueba7 (Crear tag)
-- prueba8 (Crear tag sin datos)
-- prueba9 (Editar el titulo y la descripcion del sitio)
-- prueba10 (Verificar Edición de titulo y descripcion)
-- prueba11 (Editar el idioma del sitio)
-- prueba12 (Verificar Edición de idioma)
-- prueba13 (Verificar Edición de nombre perfil)
-- prueba14 (Editar la información de un post)
-- prueba15 (Verificar Edición de información de un post)
-
-# En la semana 6 se trabajó la mejora en las pruuebas realizadas de la semana 5 de kraken y se implementaron pruebas en Cypress y se lograron correr dos de las mismas pruebas con la versión de ghost 4.5.0, las pruebas que se lograron ejecutar son:
-
-- En el repositorio https://github.com/jdanielkc/PruebasCypress se encuentran las pruebas realizadas en Cypress.
-- prueba 0 (Hacer login)
-- prueba1 (Crear page)
-
